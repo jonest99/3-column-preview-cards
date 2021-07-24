@@ -5,12 +5,14 @@
 }
 
 body { 
+    background-color: var(--pfont-color);
     width:750px;
     margin: 5% auto;
 }
 
 .container {
     display: flex;
+    margin-top: 150px;
 }
 
 
