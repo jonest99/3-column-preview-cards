@@ -6,7 +6,8 @@
 
 body { 
     background-color: var(--pfont-color);
-    width:750px;
+    display: flex;
+    justify-content: center;
     margin: 5% auto;
 }
 
