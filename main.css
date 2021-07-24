@@ -1,0 +1,99 @@
+:root {
+    --pfont-color: hsla(0, 0%, 100%, 0.75);
+    --tfont-color: hsl(0, 0%, 95%);
+    --card-width: 250px; 
+}
+
+body { 
+    width:750px;
+    margin: 5% auto;
+}
+
+.container {
+    display: flex;
+}
+
+
+h1.card-title {
+    font-family: 'big shoulders display';
+    font-weight: 700; 
+    color: var(--tfont-color) ; 
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 40px;
+    
+      
+}
+
+p.card-text {
+    font-family: 'lexend deca';
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--pfont-color);
+    text-align: left;
+}
+
+.content {
+    align-content: center;
+    margin: 25px;
+}
+
+section {
+    
+    width:var(--card-width); 
+    height: 430px;    
+    
+}
+
+button {
+    margin-top: 55px;
+    border-style: solid;
+    background-color: var(--tfont-color);
+    border-color: var(--tfont-color);
+    border-radius: 20px;
+    font-size: 13px;
+    width: 125px;
+    height: 40px; 
+    font-weight:normal;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+button:hover {
+    transform: scale(1.2)  translateY(-10px);
+}
+
+button:active {
+    transition: ease-out;
+    transition-delay: 0;
+    background-color: transparent;
+    color: var(--tfont-color);
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%); 
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card2 { 
+    background-color: hsl(184, 100%, 22%);
+}
+.card3 { 
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn1 { 
+    color:hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    color:hsl(184, 100%, 22%);
+}
+
+.btn3 { 
+    color:hsl(179, 100%, 13%); 
+}
